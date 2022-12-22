@@ -38,5 +38,3 @@ end
 
 decodeded_word "-- -.--"
 ["--", "-.--"].each
-
-
