@@ -35,6 +35,3 @@ def decode_message(message)
   list.each { |word| decodeded_message += "#{decode_word(word)} " }
   decodeded_message
 end
-
-decodeded_word "-- -.--"
-["--", "-.--"].each
