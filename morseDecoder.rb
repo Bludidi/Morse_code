@@ -20,3 +20,13 @@ def decode_char(code)
 
   code_char_hash.each { |key, value| return value.capitalize if key == code }
 end
+
+# decode word method
+def decode_word(word)
+  decodeded_word = ''
+  list = word.split
+  list.each { |char| decodeded_word += decode_char(char).to_s }
+  decodeded_word
+end
+
+
